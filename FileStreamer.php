@@ -10,7 +10,7 @@
 *	@version: 1.0
 */
 
-class FileStream
+class FileStreamer
 {
 	private $_path;
 	private $_name;

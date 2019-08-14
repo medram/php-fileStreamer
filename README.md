@@ -4,12 +4,14 @@ php-fileStreamer is a php class that helps you to stream your file via php serve
 
 # How to use:
 ```
+include "FileStreamer.php";
+
 $filePath = "path of the your file here";
 $config = [
 
 ];
 
-$stream = new FileStream($filePath, $config);
+$stream = new FileStreamer($filePath, $config);
 $stream->start();
 
 ```
