@@ -10,8 +10,6 @@
 *	@version: 1.0
 */
 
-namespace MR4Web\Utils;
-
 class FileStream
 {
 	private $_path;
